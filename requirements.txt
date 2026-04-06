@@ -1,0 +1,27 @@
+# PROSPER v2 — Python Dependencies
+# Install with: pip install -r requirements.txt
+# KiloClav can run this as: pip install -r requirements.txt --break-system-packages
+
+# ─── Core async / WebSocket ───────────────────────────────────────────────────
+websockets==12.0
+aiohttp==3.9.3
+
+# ─── Telegram Bot ────────────────────────────────────────────────────────────
+# PROSPER uses its OWN bot instance — separate from KiloClav
+python-telegram-bot==20.7
+
+# ─── Data / Math ─────────────────────────────────────────────────────────────
+pandas==2.1.4
+numpy==1.26.4
+
+# ─── MetaAPI (MT5 trade execution) ───────────────────────────────────────────
+metaapi-cloud-sdk==27.0.3
+
+# ─── Config / Env ─────────────────────────────────────────────────────────────
+python-dotenv==1.0.1
+
+# ─── Heartbeat server ────────────────────────────────────────────────────────
+flask==3.0.3
+
+# ─── Optional scheduling ──────────────────────────────────────────────────────
+APScheduler==3.10.4
